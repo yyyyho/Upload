@@ -5,4 +5,10 @@ Uploader on suunniteltu tarjoamaan vaivatonta ja tehokasta tapaa tallentaa ja ja
 Keskeisiä ominaisuuksia:
 ✅ Nopea ja vakaa tiedostojen hostaus
 ✅ Käyttäjäystävällinen käyttöliittymä
-✅ Suomalainen palvelu tietoturva huomioiden
+✅ Suomalainen palvelu, tietoturva huomioiden (jotenkin...)
+
+
+
+    -- Valmiit käyttäjä tunnukset -- 
+Käyttäjätunnus : default
+Salasana : default1
