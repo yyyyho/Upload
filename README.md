@@ -9,5 +9,5 @@ Keskeisiä ominaisuuksia:
 
 
 
-    -- Käyttäjätunnus : default   
-    -- Salasana : default1
+    -- Käyttäjätunnus : default --
+    -- Salasana : default1 --
