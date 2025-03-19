@@ -15,3 +15,5 @@ Keskeisiä ominaisuuksia:
 
 
 ![image](https://github.com/user-attachments/assets/2c44bb0f-2b6f-4a37-b905-bf3f950e1344)
+![image](https://github.com/user-attachments/assets/0a88b7a2-32d0-4714-8ddb-e5edbf7b9c12)
+![image](https://github.com/user-attachments/assets/0e75f02b-bdef-4604-8617-361788a088ea)
