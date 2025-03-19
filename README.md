@@ -12,3 +12,4 @@ Keskeisiä ominaisuuksia:
     -- Valmiit käyttäjä tunnukset -- 
 Käyttäjätunnus : default
 Salasana : default1
+s
