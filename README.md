@@ -11,3 +11,7 @@ Keskeisiä ominaisuuksia:
 
     -- Käyttäjätunnus : default --
     -- Salasana : default1 --
+
+
+
+![image](https://github.com/user-attachments/assets/2c44bb0f-2b6f-4a37-b905-bf3f950e1344)
