@@ -11,9 +11,7 @@ Keskeisiä ominaisuuksia:
 
     -- Käyttäjätunnus : default --
     -- Salasana : default1 --
-*_*
-
-    Hieman kuvia
+Hieman kuvia sivusta !
 
 ![image](https://github.com/user-attachments/assets/2c44bb0f-2b6f-4a37-b905-bf3f950e1344)
 ![image](https://github.com/user-attachments/assets/734405b4-b9be-44b4-8733-7eca95c9cc74)
