@@ -13,9 +13,11 @@ Keskeisiä ominaisuuksia:
     -- Salasana : default1 --
 
 
-
-![image](https://github.com/user-attachments/assets/2c44bb0f-2b6f-4a37-b905-bf3f950e1344)
-![image](https://github.com/user-attachments/assets/0a88b7a2-32d0-4714-8ddb-e5edbf7b9c12)
-![image](https://github.com/user-attachments/assets/734405b4-b9be-44b4-8733-7eca95c9cc74)
-![Screenshot 2025-03-20 002310](https://github.com/user-attachments/assets/13b98788-18db-47e9-89b2-f54a0042f343)
-
+    Hieman kuvia
+---
+    ![image](https://github.com/user-attachments/assets/2c44bb0f-2b6f-4a37-b905-bf3f950e1344)
+    ![image](https://github.com/user-attachments/assets/0a88b7a2-32d0-4714-8ddb-e5edbf7b9c12)
+    ![image](https://github.com/user-attachments/assets/734405b4-b9be-44b4-8733-7eca95c9cc74)
+    ![Screenshot 2025-03-20 002310](https://github.com/user-attachments/assets/13b98788-18db-47e9-89b2-f54a0042f343)
+    ![image](https://github.com/user-attachments/assets/af33a112-5d72-49fc-9040-4b6b349a4594)
+    
