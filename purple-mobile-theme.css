@@ -1,0 +1,296 @@
+/* purple-mobile-theme.css - Purple version optimized for mobile */
+@media (max-width: 768px) {
+  body.purple-theme {
+    background-color: #f9f0ff;
+    color: #333;
+    font-size: 16px;
+  }
+
+  .purple-theme .container {
+    background-color: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 95%;
+    box-shadow: 0 0 10px rgba(166, 0, 255, 0.1);
+    border-radius: 8px;
+  }
+
+  .purple-theme .header {
+    background-color: var(--primary-color, #a600ff);
+    padding: 10px 15px;
+  }
+
+  .purple-theme .menu {
+    width: 80%;
+    right: 10px;
+    background-color: white;
+    border: 1px solid rgba(166, 0, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(166, 0, 255, 0.2);
+  }
+
+  .purple-theme .menu ul li a {
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #f0e0ff;
+  }
+
+  .purple-theme .menu ul li a:hover,
+  .purple-theme .menu ul li a.active {
+    background-color: #f9f0ff;
+    color: var(--primary-color, #a600ff);
+  }
+
+  .purple-theme .menu ul li a.active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--primary-color, #a600ff), var(--primary-hover, #8400cc));
+  }
+
+  /* Larger touch targets */
+  .purple-theme .file-card {
+    height: 220px;
+    box-shadow: 0 2px 8px rgba(166, 0, 255, 0.1);
+  }
+
+  .purple-theme .file-card-thumbnail {
+    height: 120px;
+    background-color: #f0e0ff;
+  }
+
+  /* Improved form elements for touch */
+  .purple-theme input[type="text"],
+  .purple-theme input[type="password"],
+  .purple-theme input[type="file"],
+  .purple-theme select,
+  .purple-theme button {
+    padding: 12px;
+    font-size: 16px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Better spacing for mobile */
+  .purple-theme .settings-section {
+    margin-bottom: 20px;
+    background-color: #f9f0ff;
+  }
+
+  /* Optimize file grid for mobile */
+  .purple-theme .file-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+  }
+
+  /* Improve file actions for touch */
+  .purple-theme .file-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .purple-theme .sort-filter-container,
+  .purple-theme .category-filter-container,
+  .purple-theme .view-toggle {
+    width: 100%;
+  }
+
+  /* Optimize user files page for mobile */
+  .purple-theme .user-files-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .purple-theme .user-sidebar {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    background: linear-gradient(135deg, #f9f0ff 0%, #f0e0ff 100%);
+  }
+
+  /* Improve modal dialogs for mobile */
+  .purple-theme .modal {
+    width: 90%;
+    padding: 15px;
+  }
+
+  /* Reduce animations for better performance */
+  .purple-theme .animated {
+    animation-duration: 0.3s;
+  }
+
+  /* Improve touch targets for buttons */
+  .purple-theme .menu-button,
+  .purple-theme .logout-link,
+  .purple-theme .settings-button,
+  .purple-theme .upload-button,
+  .purple-theme .file-select-button,
+  .purple-theme .view-btn,
+  .purple-theme .back-btn {
+    padding: 12px 15px;
+    min-height: 44px;
+    font-size: 16px;
+    background-color: var(--primary-color, #a600ff);
+  }
+
+  /* Improve file cards for touch */
+  .purple-theme .file-card:active {
+    transform: scale(0.98);
+  }
+
+  /* Improve checkboxes and radio buttons */
+  .purple-theme input[type="checkbox"],
+  .purple-theme input[type="radio"] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Improve settings page layout */
+  .purple-theme .settings-container {
+    display: block;
+  }
+
+  .purple-theme .settings-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Improve header for mobile */
+  .purple-theme .header-controls {
+    gap: 10px;
+  }
+
+  /* Improve logout confirmation for mobile */
+  .purple-theme .logout-confirm-content {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  /* Improve file upload area */
+  .purple-theme .file-drop-area {
+    padding: 20px;
+    border: 2px dashed #d9c2ff;
+  }
+
+  /* Improve file list view */
+  .purple-theme .files-table th,
+  .purple-theme .files-table td {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+
+  /* Hide less important columns in table view */
+  .purple-theme .files-table .hide-on-mobile {
+    display: none;
+  }
+
+  /* Improve user details panel */
+  .purple-theme .user-details-panel {
+    padding: 15px;
+    background: linear-gradient(to right, #f9f0ff, #f0e0ff);
+  }
+
+  .purple-theme .user-stats {
+    grid-template-columns: 1fr;
+  }
+
+  /* Improve theme preview */
+  .purple-theme .theme-preview {
+    justify-content: space-between;
+  }
+
+  .purple-theme .theme-option {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Improve view mode selection */
+  .purple-theme .view-mode-preview {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .purple-theme .view-mode-option {
+    padding: 10px;
+    background-color: #f9f0ff;
+    border: 2px solid #f0e0ff;
+  }
+
+  .purple-theme .view-mode-option.active {
+    border-color: var(--primary-color, #a600ff);
+  }
+
+  /* Improve page size slider */
+  .purple-theme .page-size-slider {
+    height: 10px;
+    background: linear-gradient(to right, #f0e0ff, var(--primary-color, #a600ff));
+  }
+
+  .purple-theme .page-size-slider::-webkit-slider-thumb {
+    width: 24px;
+    height: 24px;
+    background-color: var(--primary-color, #a600ff);
+  }
+
+  .purple-theme .page-size-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background-color: var(--primary-color, #a600ff);
+  }
+
+  /* Improve file card actions */
+  .purple-theme .file-card-actions {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    background-color: #f9f0ff;
+    border-top: 1px solid #f0e0ff;
+  }
+
+  .purple-theme .file-card-actions button {
+    flex: 1;
+    padding: 8px 5px;
+    font-size: 12px;
+    background: linear-gradient(to bottom, #ffffff, #f9f0ff);
+    color: var(--primary-color, #a600ff);
+    border: 1px solid #f0e0ff;
+  }
+
+  .purple-theme .file-card-actions .rename-btn,
+  .purple-theme .file-card-actions .category-btn,
+  .purple-theme .file-card-actions .delete-btn {
+    background: linear-gradient(to bottom, #f9f0ff, #f0e0ff);
+  }
+
+  /* Improve search container */
+  .purple-theme .search-container {
+    padding: 12px;
+    background-color: #f9f0ff;
+  }
+
+  .purple-theme .search-form input,
+  .purple-theme .search-form select {
+    margin-bottom: 10px;
+  }
+
+  /* Improve pagination */
+  .purple-theme .pagination {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .purple-theme .pagination a {
+    padding: 10px 15px;
+    margin: 2px;
+    background-color: #f9f0ff;
+  }
+
+  .purple-theme .pagination a.active {
+    background-color: var(--primary-color, #a600ff);
+    color: white;
+  }
+}
+

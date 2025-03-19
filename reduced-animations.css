@@ -1,0 +1,91 @@
+/* reduced-animations.css - For users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animated,
+  .file-card,
+  .settings-section,
+  .menu ul li a,
+  .button,
+  button,
+  input[type="submit"],
+  .settings-button,
+  .file-select-button,
+  .upload-button,
+  .rename-btn,
+  .delete-btn,
+  .category-btn,
+  .search-btn,
+  .reset-btn,
+  .save-btn,
+  .cancel-btn,
+  .add-category-btn,
+  .close-btn,
+  .logout-confirm-yes,
+  .logout-confirm-no {
+    transition: none !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
+  .file-card:hover,
+  .settings-section:hover,
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  .settings-button:hover,
+  .file-select-button:hover,
+  .upload-button:hover,
+  .rename-btn:hover,
+  .delete-btn:hover,
+  .category-btn:hover,
+  .search-btn:hover,
+  .reset-btn:hover,
+  .save-btn:hover,
+  .cancel-btn:hover,
+  .add-category-btn:hover,
+  .close-btn:hover,
+  .logout-confirm-yes:hover,
+  .logout-confirm-no:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .message-icon,
+  .file-card-actions button::after,
+  .settings-button::after,
+  .file-select-button::after,
+  .upload-button::after,
+  .button::after,
+  button::after,
+  input[type="submit"]::after {
+    display: none !important;
+  }
+
+  .logout-confirm-content,
+  .modal-content {
+    animation: none !important;
+  }
+
+  .pop-out {
+    animation: none !important;
+  }
+}
+
+/* Styles for users who enable animations but want them to be subtle */
+.subtle-animations {
+  --animation-speed: 0.5;
+}
+
+.subtle-animations * {
+  animation-duration: calc(var(--animation-duration, 0.5s) * var(--animation-speed)) !important;
+  transition-duration: calc(var(--transition-duration, 0.3s) * var(--animation-speed)) !important;
+}
+

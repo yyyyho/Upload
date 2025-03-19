@@ -1,0 +1,193 @@
+/* dark-mobile-theme.css - Dark version optimized for mobile */
+@media (max-width: 768px) {
+  body.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  .dark-theme .container {
+    background-color: #2a2a2a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dark-theme .header {
+    background-color: var(--primary-color, #8400cc);
+  }
+  
+  .dark-theme .menu {
+    background-color: #2a2a2a;
+    border-color: #3a3a3a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dark-theme .menu ul li a {
+    color: #e0e0e0;
+    border-bottom: 1px solid #3a3a3a;
+  }
+  
+  .dark-theme .menu ul li a:hover {
+    background-color: #3a3a3a;
+    color: var(--primary-color, #a600ff);
+  }
+  
+  .dark-theme h2,
+  .dark-theme h3 {
+    color: var(--primary-color, #a600ff);
+    border-bottom-color: #3a3a3a;
+  }
+  
+  .dark-theme input[type="text"],
+  .dark-theme input[type="password"],
+  .dark-theme input[type="file"],
+  .dark-theme select,
+  .dark-theme textarea {
+    background-color: #333;
+    border-color: #444;
+    color: #e0e0e0;
+  }
+  
+  .dark-theme input[type="text"]:focus,
+  .dark-theme input[type="password"]:focus,
+  .dark-theme select:focus,
+  .dark-theme textarea:focus {
+    border-color: var(--primary-color, #a600ff);
+    box-shadow: 0 0 5px rgba(166, 0, 255, 0.3);
+  }
+  
+  .dark-theme .file-card {
+    background-color: #333;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dark-theme .file-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .dark-theme .file-card-info {
+    background-color: #2a2a2a;
+  }
+  
+  .dark-theme .file-card-name {
+    color: #e0e0e0;
+  }
+  
+  .dark-theme .file-card-meta {
+    color: #aaa;
+  }
+  
+  .dark-theme .file-card-category {
+    background-color: #444;
+    color: var(--primary-color, #a600ff);
+  }
+  
+  /* Dark theme for modals */
+  .dark-theme .modal {
+    background-color: #2a2a2a;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .dark-theme .modal-content h3 {
+    color: var(--primary-color, #a600ff);
+  }
+  
+  /* Dark theme for settings sections */
+  .dark-theme .settings-section {
+    background-color: #333;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Improve visibility of buttons in dark theme */
+  .dark-theme .settings-button,
+  .dark-theme .upload-button,
+  .dark-theme .file-select-button {
+    background-color: var(--primary-color, #a600ff);
+  }
+  
+  /* Dark theme for file drop area */
+  .dark-theme .file-drop-area {
+    background-color: #333;
+    border-color: #444;
+  }
+  
+  .dark-theme .file-drop-area.highlight {
+    border-color: var(--primary-color, #a600ff);
+    background-color: #3a3a3a;
+  }
+  
+  /* Dark theme for file list */
+  .dark-theme .file-list li {
+    border-bottom-color: #3a3a3a;
+  }
+  
+  .dark-theme .file-list li:hover {
+    background-color: #333;
+  }
+  
+  /* Dark theme for tables */
+  .dark-theme .files-table thead {
+    background-color: #333;
+  }
+  
+  .dark-theme .files-table th,
+  .dark-theme .files-table td {
+    border-bottom-color: #3a3a3a;
+  }
+  
+  .dark-theme .files-table tbody tr:hover {
+    background-color: #333;
+  }
+  
+  /* Dark theme for view mode options */
+  .dark-theme .view-mode-option {
+    background-color: #333;
+    border-color: #444;
+  }
+  
+  .dark-theme .view-mode-option.active {
+    border-color: var(--primary-color, #a600ff);
+    background-color: #3a3a3a;
+  }
+  
+  .dark-theme .view-mode-sample {
+    background-color: #444;
+  }
+  
+  .dark-theme .sample-item,
+  .dark-theme .sample-row {
+    background-color: #555;
+  }
+  
+  /* Dark theme for page size input */
+  .dark-theme .page-size-input {
+    background: linear-gradient(to right, #333, #3a3a3a);
+    border-color: #444;
+  }
+  
+  .dark-theme .page-size-input input {
+    color: var(--primary-color, #a600ff);
+    background-color: transparent;
+  }
+  
+  .dark-theme .page-size-input .unit {
+    color: var(--primary-color, #a600ff);
+  }
+  
+  /* Dark theme for user details panel */
+  .dark-theme .user-details-panel {
+    background: linear-gradient(to right, #2a2a2a, #333);
+    border-left-color: var(--primary-color, #a600ff);
+  }
+  
+  .dark-theme .stat-card {
+    background-color: #333;
+  }
+  
+  .dark-theme .stat-value {
+    color: var(--primary-color, #a600ff);
+  }
+  
+  /* Improve contrast for small text */
+  .dark-theme small {
+    color: #bbb;
+  }
+}

@@ -1,0 +1,213 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background-color: #f9f0ff;
+  }
+  
+  .container {
+    padding: 15px;
+    margin: 15px auto;
+    width: 95%;
+    box-shadow: 0 0 10px rgba(166, 0, 255, 0.1);
+  }
+  
+  .header {
+    padding: 10px 15px;
+  }
+  
+  .menu {
+    width: 80%;
+    right: 10px;
+  }
+  
+  .menu ul li a {
+    padding: 15px;
+    font-size: 16px;
+  }
+  
+  /* Larger touch targets */
+  .file-card {
+    height: 220px;
+  }
+  
+  .file-card-thumbnail {
+    height: 120px;
+  }
+  
+  /* Improved form elements for touch */
+  input[type="text"],
+  input[type="password"],
+  input[type="file"],
+  select,
+  button {
+    padding: 12px;
+    font-size: 16px;
+    height: auto;
+  }
+  
+  /* Better spacing for mobile */
+  .settings-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Optimize file grid for mobile */
+  .file-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+  }
+  
+  /* Improve file actions for touch */
+  .file-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sort-filter-container,
+  .category-filter-container,
+  .view-toggle {
+    width: 100%;
+  }
+  
+  /* Optimize user files page for mobile */
+  .user-files-container {
+    flex-direction: column;
+  }
+  
+  .user-sidebar {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+  }
+  
+  /* Improve modal dialogs for mobile */
+  .modal {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  /* Reduce animations for better performance */
+  .animated {
+    animation-duration: 0.3s;
+  }
+  
+  /* Improve touch targets for buttons */
+  .menu-button,
+  .logout-link,
+  .settings-button,
+  .upload-button,
+  .file-select-button,
+  .view-btn,
+  .back-btn {
+    padding: 12px 15px;
+    min-height: 44px;
+    font-size: 16px;
+  }
+  
+  /* Improve file cards for touch */
+  .file-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-card:active {
+    transform: scale(0.98);
+  }
+  
+  /* Improve form inputs for mobile */
+  input[type="text"],
+  input[type="password"],
+  input[type="file"],
+  select,
+  textarea {
+    font-size: 16px; /* Prevents iOS zoom on focus */
+    border-radius: 8px;
+  }
+  
+  /* Improve checkboxes and radio buttons */
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Improve settings page layout */
+  .settings-container {
+    display: block;
+  }
+  
+  .settings-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Improve header for mobile */
+  .header-controls {
+    gap: 10px;
+  }
+  
+  /* Improve logout confirmation for mobile */
+  .logout-confirm-content {
+    width: 90%;
+    max-width: 350px;
+  }
+  
+  /* Improve file upload area */
+  .file-drop-area {
+    padding: 20px;
+  }
+  
+  /* Improve file list view */
+  .files-table th,
+  .files-table td {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+  
+  /* Hide less important columns in table view */
+  .files-table .hide-on-mobile {
+    display: none;
+  }
+  
+  /* Improve user details panel */
+  .user-details-panel {
+    padding: 15px;
+  }
+  
+  .user-stats {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Improve theme preview */
+  .theme-preview {
+    justify-content: space-between;
+  }
+  
+  .theme-option {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Improve view mode selection */
+  .view-mode-preview {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .view-mode-option {
+    padding: 10px;
+  }
+  
+  /* Improve page size slider */
+  .page-size-slider {
+    height: 10px;
+  }
+  
+  .page-size-slider::-webkit-slider-thumb {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .page-size-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+  }
+}

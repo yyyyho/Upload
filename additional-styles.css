@@ -1,0 +1,162 @@
+/* Add these styles to your style.css file */
+
+/* Header actions container */
+.header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* File grid layout improvements */
+.file-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+/* Add these styles to fix the file card action buttons */
+.file-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: auto !important; /* Override fixed height */
+  min-height: 250px;
+}
+
+.file-card-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.file-card-thumbnail {
+  height: 120px;
+  background-color: #f0e0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.file-card-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Ensure file card info doesn't overflow */
+.file-card-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.file-card-name {
+  margin: 0 0 5px;
+  font-size: 14px;
+  line-height: 1.3;
+  max-height: 36px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.file-card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.file-card-category {
+  font-size: 11px;
+  color: #8400cc;
+  background-color: #f0e0ff;
+  padding: 2px 6px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.file-card-actions {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  background-color: #f9f0ff;
+  border-top: 1px solid #e0d0ff;
+  z-index: 2; /* Ensure buttons are above other elements */
+  position: relative; /* Ensure proper stacking context */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.file-card-actions button {
+  flex: 1;
+  padding: 5px;
+  font-size: 12px;
+  min-width: 0;
+  z-index: 3; /* Higher z-index for buttons */
+}
+
+/* No files message */
+.no-files-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  background-color: #f9f0ff;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.no-files-message .message-icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #a600ff;
+}
+
+/* Animation for file cards */
+.animated {
+  animation: fadeInScale 0.5s ease forwards;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .file-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .file-card {
+    height: 220px;
+  }
+
+  .file-card-thumbnail {
+    height: 100px;
+  }
+
+  .file-card-actions {
+    flex-direction: column;
+  }
+}
+
